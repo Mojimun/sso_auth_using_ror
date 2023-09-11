@@ -1,0 +1,8 @@
+
+<% if current_user %>
+ 
+    <%= image_tag(current_user.avatar_url) %>
+   
+  <% else %>
+    <%= link_to "Login", new_user_session_path %>
+  <% end %>

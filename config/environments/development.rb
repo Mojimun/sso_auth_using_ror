@@ -83,8 +83,8 @@ Rails.application.configure do
 
   :user_name => 'mojimunislam@gmail.com',
 
-  :password => 'xhxhbcwcoqaifhew',
+  :password => '',
 
 }
 end
-# xhxhbcwcoqaifhew
+
